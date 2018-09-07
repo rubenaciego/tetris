@@ -10,4 +10,4 @@ run: all
 	./build/tetris.exe
 	
 clean:
-	rm build/tetris.exe
+	del .\build\tetris.exe

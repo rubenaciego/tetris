@@ -11,7 +11,7 @@
 #define OFFSET_X ((WIDTH - SCENARY_WIDTH) / 2)
 
 void game_init();
-void game_update();
+void game_update(SDL_Window* window);
 void game_render(SDL_Renderer* renderer);
 void key_press(int scancode);
 void key_release(int scancode);

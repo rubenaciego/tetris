@@ -20,6 +20,8 @@ typedef enum
 typedef struct
 {
     uint8_t data[4][4];
+    uint8_t empty_blocks_left;
+    uint8_t empty_blocks_right;
     Color color;
     ShapeType shape_type;
     int x;
